@@ -1,7 +1,7 @@
 # general-specific
 generic item list/detail app
 
-The list/detail functionality is something often built from scratch, so I thought it would be handy to arrive on a generic setup or starting point to be used for future React/Redux apps. Or maybe it will evolve into something entirely different.
+The list/detail functionality is something often built from scratch, so I thought it would be handy to arrive on a generic setup or starting point to be used for future React/Redux apps. Or it might just evolve into something else :alien:
 
 ## basics
 - generic item list viewer
