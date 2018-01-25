@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-export default class ItemLIst extends Component {
+class ItemLIst extends Component {
   renderList() {
     return this.props.items.map((item) => {
       return (
@@ -11,9 +12,17 @@ export default class ItemLIst extends Component {
 
   render() {
     return (
-      <ul className="list-group" col-sm-4">
+      <ul className="list-group col-sm-4">
         {this.renderList()}
       </ul>
     );
   }
 }
+
+function mapStateToProps(state) {
+  return {
+    items: state.items
+  };
+}
+
+export default connect(mapStateToProps)(ItemList);
