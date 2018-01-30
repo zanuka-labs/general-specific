@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class ItemLIst extends Component {
+class ItemList extends Component {
   renderList() {
-    return this.props.items.map((item) => {
+    return this.props.items.map(item => {
       return (
-        <li key={item.title} className="list-group-item">{item.title}</li>
+        <li key={item.title} className="list-group-item">
+          {item.title}
+        </li>
       );
     });
   }

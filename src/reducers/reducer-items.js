@@ -1,9 +1,8 @@
 export default function() {
   return [
-    { id: 0, name: "item1" },
-    { id: 1, name: "item1" },
-    { id: 2, name: "item2" },
-    { id: 3, name: "item3" },
-    { id: 4, name: "item4" }
+    { title: "item1", id: 1 },
+    { title: "item2", id: 2 },
+    { title: "item3", id: 3 },
+    { title: "item4", id: 4 }
   ];
 }
