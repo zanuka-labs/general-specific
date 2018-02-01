@@ -5,7 +5,9 @@
 
 react/redux app config with generic item list
 
-**_NOTE_**: this is a work in progress :: will update to more modern config listed in [issues](https://github.com/zanuka/general-specific/issues)
+**NOTE** - this is a work in progress :: will update to more modern config listed in [issues](https://github.com/zanuka/general-specific/issues)
+
+**upgrade branch coming soon** - experimenting with updated config on [that-app-config-i-want](https://github.com/zanuka/general-specific/tree/that-app-config-i-want) branch
 
 The list functionality is something often built from scratch, so I thought it would be handy to arrive on a generic setup or starting point to be used for future apps. Or it might just evolve into something else :alien:
 
