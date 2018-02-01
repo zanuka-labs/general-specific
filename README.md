@@ -1,4 +1,7 @@
 # general-specific
+[![Known Vulnerabilities](https://snyk.io/test/github/zanuka/general-specific/badge.svg?targetFile=package.json)](https://snyk.io/test/github/zanuka/general-specific?targetFile=package.json)
+
+![](./img/toolbox.jpg)
 
 react/redux app config with generic item list
 
