@@ -16,7 +16,6 @@ class ItemList extends Component {
   }
 
   render() {
-    console.log(this.props.items)
     return (
       <ul className="list-group col-sm-4">
         {this.renderList()}
@@ -26,8 +25,6 @@ class ItemList extends Component {
 }
 
 function mapStateToProps(state) {
-  // Whatever is returned will show up as props
-  // inside of ItemList
   return {
     items: state.items
   }
