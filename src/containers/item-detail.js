@@ -9,8 +9,9 @@ class ItemDetail extends Component {
 
     return (
         <div>
-          <h3>Details for:</h3>
-          <div>{this.props.item.title}</div>
+          <h4>Details:</h4>
+          <div>ID: {this.props.item.id}</div>
+          <div>TITLE: {this.props.item.title}</div>
         </div>
       )
   }

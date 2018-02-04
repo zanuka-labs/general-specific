@@ -8,11 +8,11 @@ class ItemList extends Component {
     return this.props.items.map(item => {
       return (
           <li 
-            key={item.title} 
+            key={item.id} 
             onClick={() => this.props.selectItem(item)}
             className="list-group-item"
           >
-            {item.title}
+            {item.id} :: {item.title}
           </li>
         )
     })
