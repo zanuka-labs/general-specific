@@ -3,8 +3,15 @@ import { connect } from 'react-redux'
 
 class ItemDetail extends Component {
   render() {
+    if (!this.props.item) {
+      return <div>Select an item to get started.</div>
+    }
+
     return (
-        <div>Item Detail</div>
+        <div>
+          <h3>Details for:</h3>
+          <div>{this.props.item.title}</div>
+        </div>
       )
   }
 }
