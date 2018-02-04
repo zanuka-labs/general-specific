@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { selectItem} from '../actions/index'
+import { bindActionCreators } from 'redux'
 
 class ItemList extends Component {
   renderList() {
@@ -7,6 +9,7 @@ class ItemList extends Component {
       return (
           <li 
             key={item.title} 
+            onClick={() => this.props.selectItem(item)}
             className="list-group-item"
           >
             {item.title}
@@ -30,4 +33,8 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps)(ItemList)
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ selectItem: selectItem }, dispatch)
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ItemList)
