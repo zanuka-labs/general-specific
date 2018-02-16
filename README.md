@@ -5,8 +5,6 @@
 
 react/redux app config with generic item list
 
-**NOTE** - this is a work in progress :: will update to more modern config listed in [issues](https://github.com/zanuka/general-specific/issues)
-
 **upgrade branch coming soon** - experimenting with updated config on [that-app-config-i-want](https://github.com/zanuka/general-specific/tree/that-app-config-i-want) branch
 
 The list functionality is something often built from scratch, so I thought it would be handy to arrive on a generic setup or starting point to be used for future apps. Or it might just evolve into something else :alien:
@@ -21,5 +19,5 @@ The list functionality is something often built from scratch, so I thought it wo
 - possibly wrap the functionality into an npm module and publish
 - consider creating a parent CLI for stuff like this (react/redux starters, etc...)
 
-## inspiration
-This project is inspired by the book list example from [Stephen Grider's](https://github.com/StephenGrider) excellent course on Udemy, [Modern React with Redux](https://www.udemy.com/react-redux). If you aren't able to view the course, I recommend his companion code at [ReduxCasts](https://github.com/StephenGrider/ReduxCasts). 
+## roadmap
+  - see [issues](https://github.com/zanuka-labs/general-specific/issues)
