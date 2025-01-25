@@ -5,6 +5,9 @@
 
 react/redux app config with generic item list
 
+## update
+will be upgrading this concept in 2025
+
 **upgrade branch coming soon** - experimenting with updated config on [that-app-config-i-want](https://github.com/zanuka/general-specific/tree/that-app-config-i-want) branch
 
 The list functionality is something often built from scratch, so I thought it would be handy to arrive on a generic setup or starting point to be used for future apps. Or it might just evolve into something else :alien:
